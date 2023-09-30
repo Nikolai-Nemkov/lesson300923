@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
+
 // Задача 27: Напишите программу, которая принимает на
 // вход число и выдаёт сумму цифр в числе.
 // 452 -> 11
