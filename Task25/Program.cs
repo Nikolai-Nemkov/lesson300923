@@ -21,7 +21,6 @@ int Exponentiation(int numberA, int numberB)     // Exponentiation - перев�
   } 
   return result;
 }
-
   Console.Write("Введите число A: ");
   int numberA = Convert.ToInt32(Console.ReadLine());
 
