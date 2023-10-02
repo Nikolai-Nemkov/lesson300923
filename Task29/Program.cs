@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine();
 Console.WriteLine("Задача № 29");
+Console.WriteLine();
 
-// Задача 29: Напишите программу, которая задаёт массив
-// из 8 элементов и выводит их на экран.
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-Console.WriteLine($"\nЗадача 29. Ряд чисел преобразует в массив");
+Console.WriteLine($"Ряд чисел преобразует в массив");
 Console.Write("Введите ряд чисел, разделенных запятой : ");
 string? seriesOfNumbers = Console.ReadLine();
 
@@ -36,7 +37,7 @@ void СheckNumber2 (int  series){
       {
       }
         else {
-          Console.WriteLine($"Ошибка ввода  символа. Вводи цифры.");
+          Console.WriteLine($"Ошибка ввода.");
 
       }
 }
@@ -88,4 +89,6 @@ string seriesNew = RemovingSpaces(seriesOfNumbers);
 int[] arrayOfNumbers =  ArrayOfNumbers(seriesNew);
 
 PrintArry(arrayOfNumbers);
+
+Console.WriteLine();
  
