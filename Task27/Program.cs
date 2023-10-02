@@ -26,7 +26,6 @@ int numberN = Convert.ToInt32(Console.ReadLine());
     }
    return result;
   }
-
 int sumNumber = SumNumber(numberN);
 Console.WriteLine("Сумма цифр в числе: " + sumNumber);
 
